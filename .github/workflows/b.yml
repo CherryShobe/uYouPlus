@@ -4,7 +4,7 @@
 name: Build and Release uYouPlus
 
 on:
-  workflow_dispatch:
+  pull_request:
     inputs:
       uyou_version:
         description: "The version of uYou"
